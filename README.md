@@ -17,5 +17,5 @@ $ docker exec -ti php54-nginx-0 bash
 Still bugs on running php.
 Fix it by run
 ```
-docker exec -ti php54-nginx-0 service php5-fpm restart
+$ docker exec -ti php54-nginx-0 service php5-fpm restart
 ```
