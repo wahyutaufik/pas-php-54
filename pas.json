@@ -1,0 +1,21 @@
+{
+    "name": "php54",
+    "version": "0.0.1",
+    "profile": "docker",
+    
+    "docker": {
+        "containers": {
+            "nginx": {
+                "ports": [
+                    "8081:80"
+                ],
+                "volumes": [
+                    "./srv/www:/srv/www"
+                ],
+                "restart": [
+                    "always"
+                ]
+            }
+        }
+    }
+}
